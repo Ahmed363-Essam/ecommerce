@@ -1,0 +1,121 @@
+
+.con
+{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-image: url("../images/womans-warm-clothes-fashion-background-M08BMW.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;  
+    position: relative;
+}
+
+.con .h2
+{
+   position: absolute;
+   top: 48%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 85px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: var(--second-color);
+   color: white;
+}
+.over
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.5);
+    
+}
+
+.contact.block .h1
+{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.block .h1::after
+{
+    top: 70px;
+}
+.contact
+{
+    padding: 60px 0px;
+
+}
+.contact .over2
+{
+    position: relative;
+    height: 560px;
+}
+.contact .over2 .h2
+{
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-size: 180px;
+    font-weight: 900;
+    margin-top: -33px;
+    
+
+}
+
+.contact .over2 .form1
+{
+
+    width: 100%;
+    height: 250px;
+    top: 140px;
+    left: 0px;
+    position: absolute;
+}
+
+.contact .over2 .form1 label
+{
+    color: rgb(97, 96, 96);
+    font-size: 15px;
+}
+.contact .over2 .form1 textarea
+{
+    height: 200px;
+}
+
+.contact .over2 .form1 .item
+{
+    width: 100%;
+    height: 100%;
+    margin-left: 60px;
+
+}
+.contact .over2 .form1 .item .h3
+{
+    margin-bottom: 45px;
+}
+.contact .over2 .form1 .item li
+{
+    margin-bottom: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+.contact .over2 .form1 .item li i
+{
+    float: left;
+    width: 10%;
+    margin-top: 12px;
+    font-size: 25px;
+    
+}
+.contact .over2 .form1 .item li span
+{
+    display: block;
+    width: 90%;
+    float: right;
+}
+
+.contact .over2 .form1 .item li span p
+{
+    font-size: 17px;
+    width: 62%;
+}
