@@ -6,6 +6,7 @@ $(window).on("load",function()
 $(document).ready(function() {
 	$('.mySelector').funnyText({
 		speed: 700,
+        
 		borderColor: 'var(--second-color)',
 		activeColor: 'black',
 		color: 'white',
@@ -16,6 +17,7 @@ $(document).ready(function() {
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:15,
+    lazyLoad:true,
     responsiveClass:true,
     responsive:{
         0:{
