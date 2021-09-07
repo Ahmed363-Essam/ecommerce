@@ -315,7 +315,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.venobox1').venobox(); 
 });
-new WOW().init();
+//new WOW().init();
 
 
 let width = $(window).innerWidth();
